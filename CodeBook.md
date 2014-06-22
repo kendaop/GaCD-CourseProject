@@ -16,6 +16,7 @@ Although no other data was modified, large swathes of data were removed, as they
  - std
  - mean
  - Mean
+
 This returned a set of 86 features. Additionally, we included the subject ID and activity ID in our dataset, creating a total of 88 columns. I opted to retain the names with capital- and lowercase-M, in order to gather all names with any reference to mean.
 
 The feature names were cleaned up to create more user-friendly names. Feature names beginning with "t" or "f" were replaced with "time" and "freq", respectively, as time and frequency were the orinally-intended meanings of the measurements. All punctuation marks were removed, and standard camel-case was implemented (first letter of second-and-beyond words are capitalized). Also, "std" was replaced with "StdDev" to make it more readable. Also, all references to the dimension of a measurement (X, Y, Z) were moved to the end of feature name in order to standardize the location of the reference, and I believe it's easier to read.
