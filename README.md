@@ -1,3 +1,7 @@
+READ ME
+-------
+-------
+
 run_analysis.R is the only script required for this assignment. It doesn't require any setup in order for it to perform its function (however an internet connection is required). The script will automatically download the necessary zip file from the internet and process it from there. It will store the zip file in the current working directory, and unzip the contents to a sub-folder, "UCI HAR Dataset". All filepaths are constructed dynamically, so it will work, no matter where the working directory is on the local hard drive.
 
 There is one custom function, "location", at the top of this script. It simply allows you to give it a partial filepath and it will construct the entire filepath with the given portion appended to it. This helps prevent mistakes and is easier to read.
