@@ -5,6 +5,7 @@ Getting and Cleaning Data - Course Project Codebook
 This document modifies the "features_info.txt" file that was included with the UCI HAR Dataset zip file. 
 
 The only data that was modified, were the activity IDs. The integers, which related to certain activities (walking upstairs, laying, standing, etc.) were replaced with friendly labels describing the activities as follows:
+
 1 --> "Walking"
 2 --> "Walking Upstairs"
 3 --> "Walking Downstairs"
